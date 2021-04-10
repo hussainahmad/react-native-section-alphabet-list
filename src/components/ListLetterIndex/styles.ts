@@ -4,6 +4,7 @@ const sizes = {
   containerWidth: 10,
   itemHeight: 15,
   itemFontSize: 10,
+  indexFontSize:14
 };
 
 export const styles = StyleSheet.create({
@@ -29,7 +30,7 @@ export const styles = StyleSheet.create({
   },
 
   letterIndexLabel: {
-    fontSize: sizes.itemFontSize,
+    fontSize: sizes.indexFontSize,
     fontWeight: "bold",
     color: "grey",
   },
